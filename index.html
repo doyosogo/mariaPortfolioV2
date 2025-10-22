@@ -225,14 +225,13 @@
     const labels = ["Latte art","Espresso","Pour-over","Cappuccino","Filter","Bar","Beans"];
 
     gallery.innerHTML = files.map((path, idx) => {
-      const label = labels[idx % labels.length];
-      return `
-        <a class="tile" href="#" data-large="${path}">
-          <span class="badge">${label}</span>
-          <img loading="lazy" src="${path}" alt="Coffee ${idx + 1}" />
-        </a>
-      `;
-    }).join("");
+  return `
+    <a class="tile" href="#" data-large="${path}">
+      <img loading="lazy" src="${path}" alt="Coffee ${idx + 1}" />
+    </a>
+  `;
+}).join("");
+
     // --- End auto-gallery ---
 
     // Create lightbox container
@@ -273,3 +272,4 @@
   </script>
 </body>
 </html>
+
