@@ -3,7 +3,7 @@
 A minimalist one-page website showcasing Maria’s barista work, including latte art and coffee creations.  
 Built with HTML, CSS, and JavaScript, the portfolio is hosted via GitHub Pages and designed for use with a QR code on her resume.
 
-**Live site:** [https://doyosogo.github.io/mariasPortfolio/](https://doyosogo.github.io/mariasPortfolio/](https://doyosogo.github.io/mariaPortfolioV2/))
+**Live site:** [https://doyosogo.github.io/mariasPortfolio/](https://doyosogo.github.io/mariaPortfolioV2/)]
 
 ## Project Structure
 ~~~
