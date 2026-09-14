@@ -213,11 +213,11 @@
     const gallery = document.getElementById('gallery');
 
     // Change this if you add/remove photos:
-    const GALLERY_COUNT = 43;
+    const GALLERY_COUNT = 22;
 
-    // Filenames 01.jpeg ... 43.jpeg in img/gallery/
+    // Filenames 01.jpg ... 22.jpg in img/gallery/
     const files = Array.from({ length: GALLERY_COUNT }, (_, i) =>
-      `img/gallery/${String(i + 1).padStart(2, '0')}.jpeg`
+      `img/gallery/${String(i + 1).padStart(2, '0')}.jpg`
     );
 
     // Optional labels for the little badge (repeats)
